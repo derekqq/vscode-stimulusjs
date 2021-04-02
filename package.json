@@ -19,12 +19,13 @@
 	},
 	"categories": [
 		"Other"
-	],
-	"activationEvents": [
-		"onLanguage:html",
-		"onLanguage:erb"
-	],
-	"main": "./dist/extension",
+  ],
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:twig",
+    "onLanguage:erb"
+  ],
+  "main": "./dist/extension",
 	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "webpack --mode production",
